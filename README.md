@@ -21,17 +21,22 @@ Se creó un prototipo de baja fidelidad con una lluvia de ideas de lo que podrí
 
 En el primer prototipo se tuvo en consideración interfaz de inicio, posibles popups, posición de cartas y de estadísticas. 
 
--aquí va imagen-
+![Prototipo baja fidelidad](https://i.ibb.co/82H6z1t/prototipo01.png "Prototipo baja fidelidad")
 
-Luego se hizo un prototipo interactivo de alta fidelidad, donde los usuarios pudieron acceder al juego en etapa de testeo y dieron su feedback, el cuál se tomó en cuenta para mejoras en el prototipo final. 
+Luego se hizo un prototipo interactivo de alta fidelidad, donde los usuarios pudieron acceder al juego en etapa de testeo.
 
--aquí va imagen 2- 
+![prototipo alta fidelidad](https://i.ibb.co/LPwcnCS/boceto.png "prototipo alta fidelidad")
+
+
+Cuando los usuarios interactuarion con el prototipo anterior dieron su feedback, el cuál se tomó en cuenta para mejoras en el prototipo final. 
+
+![final](https://i.ibb.co/Fq7GjsP/Captura03.png "final")
 
 ## Desarrollo del juego 
 Para el desarrollo de esta aplicación, utilizamos solo VanillaJS, además de dar forma y estilo con HTML & CSS. 
 
 Se consideró lo que quería el usuario, por lo que se implementó el algoritmo de Fisher-Yates para barajar las cartas al azar, implementación de temporizador, contador de acierto y movimientos. Además, se implementó una función para bloquear las cartas al terminar el juego o cuando se acabe el tiempo.
 
-Se puede acceder a esta aplicación mediante el siguiente link -poner link-
+Se puede acceder a esta aplicación mediante el siguiente [link](https://dxambar.github.io/SCL021-memory-match/ "link")
 
 Este juego fue desarrollado por Daniela Baeza y Cata García para Laboratoria, cohort SCL021, Agosto 2022.
