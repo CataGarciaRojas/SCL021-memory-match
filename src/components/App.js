@@ -20,10 +20,7 @@ console.log(pokemon.items);
 const App = (items = pokemon.items) => { // Declaramos valor de items por si la constante no recibe el valor correcto
   const doubledItems = items.concat(items); // Se duplican las cartas de pokemon
 
-<<<<<<< HEAD
   // Variables  
-=======
->>>>>>> e32469f7b696a3cea52ecb17cd8962b3831369fb
   let timer = 30;
   let flag = false;
   let moves = 0;
@@ -130,12 +127,9 @@ const App = (items = pokemon.items) => { // Declaramos valor de items por si la 
         showMoves.innerHTML = `Movimientos: ${moves}`;
         // Alerta al terminar de jugar
         if (flip.length === doubledItems.length) {
-<<<<<<< HEAD
           // ClearInterval(countdownTimer)
           timer = 0;
-=======
           //clearInterval(countdownTimer)
->>>>>>> e32469f7b696a3cea52ecb17cd8962b3831369fb
           alert('¡FELICITACIONES!')
           flag = true;
         }
